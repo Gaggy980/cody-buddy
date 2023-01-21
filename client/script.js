@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   //fetch data from server
-  const response = await fetch("http://https://cody-ps3u.onrender.com/", {
+  const response = await fetch("https://cody-ps3u.onrender.com/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
